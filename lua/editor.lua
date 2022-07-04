@@ -2,9 +2,11 @@
 
 vim.o.showmatch = true
 vim.o.ignorecase = true
+vim.o.wildignorecase = true
 vim.o.smartcase = true
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.signcolumn = "yes"
 
 vim.o.wildmode = "longest,list"
 vim.o.completeopt = "menuone,noinsert,noselect"
@@ -17,6 +19,7 @@ vim.o.softtabstop = 4
 vim.o.expandtab = true
 vim.o.smartindent = true
 
+vim.o.hidden = true
 vim.o.updatetime = 200
 vim.o.visualbell = true
 vim.o.splitright = true
@@ -25,3 +28,4 @@ vim.o.mouse = "a"
 vim.o.clipboard = "unnamedplus"
 
 vim.o.guifont = "JetBrains Mono:h11"
+

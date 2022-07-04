@@ -1,4 +1,5 @@
 -- keymap configuration
+vim.keymap.set("n", "ZS", ":update<CR>")
 
 vim.keymap.set("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { silent = true })
 vim.keymap.set("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", { silent = true })
@@ -13,6 +14,7 @@ vim.keymap.set("n", "<leader>fr", "<cmd>lua vim.lsp.buf.formatting()<CR>", { sil
 vim.keymap.set("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>fm", "<cmd>NeoTreeFloatToggle<CR>", { silent = true })
+vim.keymap.set("n", "<leader>ft", "<cmd>NeoTreeRevealToggle<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope git_files<CR>")
 vim.keymap.set("n", "<leader>fa", "<cmd>Telescope find_files<CR>")
