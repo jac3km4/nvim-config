@@ -29,3 +29,4 @@ vim.o.clipboard = "unnamedplus"
 
 vim.o.guifont = "JetBrains Mono:h11"
 
+vim.wo.signcolumn = "yes"

@@ -5,7 +5,8 @@ return require('packer').startup(function()
 
     -- lsp plugins
     use 'neovim/nvim-lspconfig'
-    use 'ray-x/lsp_signature.nvim'
+    use 'glepnir/lspsaga.nvim'
+    use 'https://git.sr.ht/~whynothugo/lsp_lines.nvim'
 
     use 'simrat39/rust-tools.nvim'
     use 'folke/lua-dev.nvim'
