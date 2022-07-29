@@ -19,10 +19,9 @@ require('mini.trailspace').setup()
 
 require('gitsigns').setup()
 require('toggleterm').setup()
-require("lsp_lines").setup()
+require('lsp_lines').setup()
 require('wilder').setup({ modes = { ':', '/', '?' } })
 require('lualine').setup(require('configs.lualine'))
 require('nvim-treesitter.configs').setup(require('configs.treesitter'))
 
-require('lspsaga').init_lsp_saga()
-
+require('configs.lspsaga').setup()
